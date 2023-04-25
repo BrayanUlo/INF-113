@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro-Mi web</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="prueba.php" method="get">
+        Nombre:   <input type="text" name="Nombre" maxlenght="50"><br><br>
+        Apellidos:  <input type="text"name="apellidos" maxlenght="50"><br><br>
+        Sexo<input type="radio"name="boton1" value="1">hombre
+        <input type="radio"name="boton1" value="2">mujer<br>
+        <br>
+        Correo:   <input type="text"name="Correo"><br><br>
+        Poblacion:  <select name="Poblacion" size="1">
+            <option value="A">Alicante</option>
+            <option value="D">Denia</option>
+            <option value="J">Javea</option>
+        </select><br><br>
+        Descripcion:  <textarea name="text" id="" cols="50" rows="6"></textarea><br><br>
+
+        <input type="checkbox"name="Deseo"value="">Deseo recibir informacion sobre novedades y ofertas.<br><br>
+        <input type="checkbox"name="Declaro"value=""checked>Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos.
+        <br><br>
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
