@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1{/* Esto es un identificador */
+            color: blue;
+        }
+        #p2{/* Esto es una Clase */
+            color: aquamarine;
+        }
+        .btn{
+            color: black; /* #000*/
+            border-radius: 15px;
+            padding: 14px;
+            cursor: pointer;
+            border: none;
+            /*0.6;*/
+        }
+        .btn1{
+            color: #fff;/*#FFF*/
+            background-color: #14D20E;
+        }
+        .btn2{
+            color: #fff;
+            background-color: #3492BD;
+        }
+        .btn3{
+            color: #fff;
+            background-color: #8e44ad;
+        }
+        .btn4{
+            color: #fff;
+            background-color:  #e74c3c ;
+        }
+        .btn5{
+            color: #fff;
+            background-color:#f1c40f;
+        }
+        .btn6{
+            color: #fff;
+            background-color:  #34495e ;
+        }
+        .btn7{
+            color: #fff;
+            background-color:  #082a81 ;
+        }
+        .btn8{
+            color: #fff;
+            background-color:  #3c5d3f ;
+        }
+        section{
+            color:blue;
+        }
+        section p{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Tipos de estilos</h1>
+    <h1 id="p1">Primero</h1>
+    <h1 class="p2">Segundo</h1>
+    <h1 style="color: red">Tercero</h1>
+    <hr>
+    <button class="btn btn2">Incio</button>
+    <button class="btn btn1">Advertencia</button>
+    <button class="btn btn3">Carrera</button>
+    <button class="btn btn4">Doctor</button>
+    <button class="btn btn5">Otros</button>
+    <button class="btn btn6">Academico</button>
+    <button class="btn btn7">Medico</button>
+    <button class="btn btn8">Biblioteca</button>
+    <hr>
+    <section>
+        <p>Texto introductorio</p><br>
+         <font>A CSS</font>
+         <p>Texto concluyente</p>   
+    </section>
+</body>
+</html>
